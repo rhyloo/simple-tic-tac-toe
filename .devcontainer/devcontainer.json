@@ -3,6 +3,8 @@
     "dockerFile": "Dockerfile",
     "context": "../",
     "extensions": [
+        "vscodeemacs.emacs",
+        "formulahendry.code-runner",
         "dbaeumer.vscode-eslint",
         "ms-python.python",
         "njpwerner.autodocstring",
@@ -21,7 +23,7 @@
 		"python.pythonPath": "/usr/bin/python3",
 		"python.languageServer": "Pylance",
         "python.linting.pylintEnabled": false,
-        "python.linting.flake8Enabled": true,
+        "python.linting.flake8Enabled": false,
         "python.linting.enabled": true,
 		"python.formatting.blackPath": "/usr/local/bin/black",
 		"python.linting.flake8Path": "/usr/local/bin/flake8",
